@@ -1,5 +1,5 @@
-const GITHUB_OWNER = "SEU_USUARIO";
-const GITHUB_REPO = "SEU_REPO";
+const GITHUB_OWNER = "Daniel1916";
+const GITHUB_REPO = "pwa-coordenadas";
 const GITHUB_FILE_PATH = "dados/coords.txt";
 const GITHUB_TOKEN = "SEU_TOKEN_AQUI";
 
