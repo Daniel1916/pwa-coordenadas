@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>PWA Coordenadas GitHub</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#000000">
+</head>
+<body>
+<h1>PWA Coordenadas GitHub</h1>
+<input id="lat" placeholder="Latitude">
+<input id="lon" placeholder="Longitude">
+<textarea id="txtContent"></textarea>
+<button onclick="usarGPS()">Usar GPS</button>
+<button onclick="carregarDoGitHub()">Carregar</button>
+<button onclick="salvarNoGitHub()">Salvar</button>
+<div id="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
